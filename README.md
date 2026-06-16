@@ -1,10 +1,8 @@
-# 植物大战小黑子 / PVZ_2
+# Plant VS Zombies / PVZ_2
 
 这是一个基于 C++ 与 EasyX 图形库实现的《植物大战僵尸》风格小游戏工程。当前 `PVZ_2(2)` 文件夹保留了 Visual Studio 工程文件、源码文件、素材资源以及部分调试构建文件，是比精简提交目录更完整的工程版本。
 
 ## 完整性说明
-
-对比提交用的 `05-我是Esleiwen--植物大战小黑子-工程` 目录，`PVZ_2(2)` 更完整，原因如下：
 
 - 包含 Visual Studio 解决方案文件 `PVZ_2.sln`，可以直接用 Visual Studio 打开。
 - 包含项目配置文件 `PVZ_2.vcxproj`、`PVZ_2.vcxproj.filters`、`PVZ_2.vcxproj.user`。
@@ -86,14 +84,4 @@ C:\Users\Administrator\Desktop\植物大战僵尸项目\PVZ_2(2)\PVZ_2\PVZ_2.sln
 - 胜利与失败状态判断
 - 背景音乐和音效播放
 
-## 建议保留版本
 
-如果只保留一个版本，建议保留：
-
-```text
-C:\Users\Administrator\Desktop\植物大战僵尸项目\PVZ_2(2)
-```
-
-这个目录包含 Visual Studio 工程文件和完整素材，更适合作为最终工程归档。
-
-如果需要提交课程材料，可以在此基础上另外整理一个精简版，只保留源码、`res/`、`PVZ_2.sln`、`PVZ_2.vcxproj` 以及必要说明文件，删除 `.vs/` 和 `x64/Debug/` 等临时生成内容。
