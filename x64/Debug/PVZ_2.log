@@ -1,0 +1,7 @@
+﻿sunshine.obj : error LNK2005: "struct zm * zms" (?zms@@3PAUzm@@A) 已经在 game.obj 中定义
+test.obj : error LNK2005: "struct zm * zms" (?zms@@3PAUzm@@A) 已经在 game.obj 中定义
+tools.obj : error LNK2005: "struct zm * zms" (?zms@@3PAUzm@@A) 已经在 game.obj 中定义
+zombie.obj : error LNK2005: "struct zm * zms" (?zms@@3PAUzm@@A) 已经在 game.obj 中定义
+game.obj : error LNK2001: 无法解析的外部符号 "class IMAGE * imgZM" (?imgZM@@3PAVIMAGE@@A)
+zombie.obj : error LNK2001: 无法解析的外部符号 "class IMAGE * imgZM" (?imgZM@@3PAVIMAGE@@A)
+D:\CProgramming\pvz_-project\PVZ_2\x64\Debug\PVZ_2.exe : fatal error LNK1120: 1 个无法解析的外部命令
